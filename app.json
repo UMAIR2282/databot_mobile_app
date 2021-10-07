@@ -26,9 +26,16 @@
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "build": {
+        "babel": {
+          "include": [
+            "galio-framework"
+          ]
+        }
+      }
     },
-    "description": "",
+    "description": "Mobile App for DataBot",
     "githubUrl": "https://github.com/infusionsoftdevelopers/databot_mobile_app"
   }
 }
